@@ -58,7 +58,7 @@ public class Acervo {
 		return false;
 	}
 	
-	static double calcularTotalAcervo() {
+	static public double calcularTotalAcervo() {
 		double total = 0;
 		for (LivroLivraria listaLivro : listaLivros) {
 			total += listaLivro.getPreco();

@@ -62,7 +62,7 @@ public class LivroLivraria {
 	public String Imprimir() {
 
 		return "Título: " + this.getTitulo() + "\nAutor: " + this.getAutor() + "\nISBN: " + this.getIsbn()
-				+ "\nGenero: " + this.getIsbn() + String.format("\nPreço R$ %.2f", getPreco());
+				+ "\nGenero: " + this.getGenero() + String.format("\nPreço R$ %.2f", getPreco());
 	}
 
 }
